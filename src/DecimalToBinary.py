@@ -1,5 +1,4 @@
 
-
 class DecimalToBinary:
     def to_binary(self, number):
         return int(self.calculate_binary(number))

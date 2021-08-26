@@ -7,7 +7,7 @@ class Palindrome:
         # base condition if 1 char return true
         if len(word) == 1:
             return True
-        # base condition if 2 ,if matching return true else false
+        # base condition if 2  ,if matching return true else false
         if len(word) == 2:
             return word[0] == word[1]
 
